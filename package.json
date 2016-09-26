@@ -1,0 +1,27 @@
+{
+  "name": "else-find-test-data",
+  "version": "1.0.0",
+  "description": "Dohledá testovací data z mappingu.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelNovotny/else-find-test-data.git"
+  },
+  "author": "Pavel Novotny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelNovotny/else-find-test-data/issues"
+  },
+  "homepage": "https://github.com/PavelNovotny/else-find-test-data#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "fs": "0.0.1-security",
+    "mustache": "^2.2.1",
+    "nconf": "^0.8.4",
+    "path": "^0.12.7",
+    "request": "^2.75.0"
+  }
+}

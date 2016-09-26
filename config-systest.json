@@ -1,0 +1,5 @@
+{
+  "customer-template": "./test/customerTemplate.json",
+  "proxied-site": "http://10.199.160.19:9200",
+  "listen-port": 9300
+}

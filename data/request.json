@@ -1,0 +1,590 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "bool": {
+            "should": [
+              {
+                "query_string": {
+                  "query": "7202504289",
+                  //zde hledam na customerovi
+                  "fields": [
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
+                    "companyName",
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "birthDateString",
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
+                    "residentalAddress.streetNo",
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "obligationRefNo"//číslo RD
+                  ]
+                }
+              },
+              {
+                "has_child": {
+                  "type": "product",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "7202504289",
+                            "fields": [
+                              "serviceId",//ID služby/přípojky
+                              "imsi",//IMSI
+                              "phoneNumber",//SIM
+                              "serialNumber",//ESN
+                              "birthNumber",
+                              "sfaId",
+                              "residentalAddress.street",
+                              "residentalAddress.streetNo",
+                              "residentalAddress.buildingNo",
+                              "residentalAddress.city"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "product_7202504289",
+                    "highlight": {
+                      "fields": {
+                        "*": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "customer_request",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "7202504289",
+                            "fields": [
+                              "crRefNo"//ID PZ
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "customer_request_7202504289",
+                    "highlight": {
+                      "fields": {
+                        "crRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "order",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "7202504289",
+                            "fields": [
+                              "orderRefNo"//ID objednávky
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "order_7202504289",
+                    "highlight": {
+                      "fields": {
+                        "orderRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "payment_document",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "7202504289",
+                            "fields": [
+                              "variableSymbol"//číslo platebního dokladu
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "payment_document_7202504289",
+                    "highlight": {
+                      "fields": {
+                        "variableSymbol": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              {
+                "query_string": {
+                  "query": "4149873031",
+                  //zde hledam na customerovi
+                  "fields": [
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
+                    "companyName",
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "birthDateString",
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
+                    "residentalAddress.streetNo",
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "obligationRefNo"//číslo RD
+                  ]
+                }
+              },
+              {
+                "has_child": {
+                  "type": "product",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "4149873031",
+                            "fields": [
+                              "serviceId",//ID služby/přípojky
+                              "imsi",//IMSI
+                              "phoneNumber",//SIM
+                              "serialNumber",//ESN
+                              "birthNumber",
+                              "sfaId",
+                              "residentalAddress.street",
+                              "residentalAddress.streetNo",
+                              "residentalAddress.buildingNo",
+                              "residentalAddress.city"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "product_4149873031",
+                    "highlight": {
+                      "fields": {
+                        "*": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "customer_request",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "4149873031",
+                            "fields": [
+                              "crRefNo"//ID PZ
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "customer_request_4149873031",
+                    "highlight": {
+                      "fields": {
+                        "crRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "order",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "4149873031",
+                            "fields": [
+                              "orderRefNo"//ID objednávky
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "order_4149873031",
+                    "highlight": {
+                      "fields": {
+                        "orderRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "payment_document",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "4149873031",
+                            "fields": [
+                              "variableSymbol"//číslo platebního dokladu
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "payment_document_4149873031",
+                    "highlight": {
+                      "fields": {
+                        "variableSymbol": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              {
+                "query_string": {
+                  "query": "5115564647",
+                  //zde hledam na customerovi
+                  "fields": [
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
+                    "companyName",
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "birthDateString",
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
+                    "residentalAddress.streetNo",
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "obligationRefNo"//číslo RD
+                  ]
+                }
+              },
+              {
+                "has_child": {
+                  "type": "product",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "5115564647",
+                            "fields": [
+                              "serviceId",//ID služby/přípojky
+                              "imsi",//IMSI
+                              "phoneNumber",//SIM
+                              "serialNumber",//ESN
+                              "birthNumber",
+                              "sfaId",
+                              "residentalAddress.street",
+                              "residentalAddress.streetNo",
+                              "residentalAddress.buildingNo",
+                              "residentalAddress.city"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "product_5115564647",
+                    "highlight": {
+                      "fields": {
+                        "*": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "customer_request",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "5115564647",
+                            "fields": [
+                              "crRefNo"//ID PZ
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "customer_request_5115564647",
+                    "highlight": {
+                      "fields": {
+                        "crRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "order",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "5115564647",
+                            "fields": [
+                              "orderRefNo"//ID objednávky
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "order_5115564647",
+                    "highlight": {
+                      "fields": {
+                        "orderRefNo": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              },
+              {
+                "has_child": {
+                  "type": "payment_document",
+                  "query": {
+                    "bool": {
+                      "must": [
+                        {
+                          "query_string": {
+                            "query": "5115564647",
+                            "fields": [
+                              "variableSymbol"//číslo platebního dokladu
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "inner_hits": {
+                    "name": "payment_document_5115564647",
+                    "highlight": {
+                      "fields": {
+                        "variableSymbol": {
+                          "number_of_fragments": 3
+                        }
+                      }
+                    },
+                    "from": 0,
+                    "size": 1
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {}
+      ],
+      //filtrovani na opravneni
+      "filter":[
+        {
+          "has_child": {
+            "type": "customer_permission",
+            "query": {
+              "bool": {
+                "must": [
+                  {
+                    "query_string": {
+                      "query": "x0503569",
+                      "fields": [
+                        "login"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "highlight": {
+    "fields": {
+      "*": {
+        "highlight_query": {
+          "bool": {
+            "should": [
+              {
+                "query_string": {
+                  "query": "7202504289",
+                  //zde hledam na customerovi
+                  "fields": [
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
+                    "companyName",
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
+                    "residentalAddress.streetNo",
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "obligationRefNo"//číslo RD
+                  ]
+                }
+              },
+              {
+                "query_string": {
+                  "query": "4149873031",
+                  //zde hledam na customerovi
+                  "fields": [
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
+                    "companyName",
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
+                    "residentalAddress.streetNo",
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "obligationRefNo"//číslo RD
+                  ]
+                }
+              },
+              {
+                "query_string": {
+                  "query": "5115564647",
+                  //zde hledam na customerovi
+                  "fields": [
+                    "firstName",//jméno zákazníka
+                    "lastName",//název zákazníka/příjmení zákazníka
+                    "companyName",
+                    "identityDocumentID",//číslo pasu,číslo občanského průkazu
+                    "companyRegNo",//IČ
+                    "taxRegNo", //DIČ
+                    "birthNumber",//Rodné číslo
+                    "sfaId", //SFA ID zákazníka
+                    "residentalAddress.street", //adresa zákazníka - sídlo
+                    "residentalAddress.streetNo",
+                    "residentalAddress.buildingNo",
+                    "residentalAddress.city",
+                    "obligationRefNo"//číslo RD
+                  ]
+                }
+              },
+              {}
+            ]
+          }
+        }
+      }
+    }
+  }
+}

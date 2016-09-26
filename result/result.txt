@@ -1,0 +1,2510 @@
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 430,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 427,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 428,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 428,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 439,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 7,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_44_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "assetIdId" : "1648287880",
+        "assetRefNo" : "6385037806",
+        "imsi" : "6328122161",
+        "phoneNumber" : "896341228",
+        "serialNumber" : "4310805399",
+        "serviceId" : "8089178928",
+        "installationAddress" : [ {
+          "buildingNo" : "815779",
+          "city" : "Zlatá",
+          "cityDistrict" : "Bačetín",
+          "countryCode" : "DJ",
+          "crossId" : "daniel.andresová@optiplex.info",
+          "postalCode" : "02621",
+          "street" : "NÁMĚSTÍ BOHUMILA HAVLASY",
+          "streetNo" : "210116"
+        }, {
+          "buildingNo" : "379134",
+          "city" : "Střítež",
+          "cityDistrict" : "Obříství",
+          "countryCode" : "LK",
+          "crossId" : "sandra.běhalová@terralabs.co",
+          "postalCode" : "33769",
+          "street" : "NÁMĚSTÍ BOŘISLAVKA",
+          "streetNo" : "406685"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_44_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "assetIdId" : "4804778738",
+        "assetRefNo" : "2505760912",
+        "imsi" : "9111413098",
+        "phoneNumber" : "362683434",
+        "serialNumber" : "1065577756",
+        "serviceId" : "7672070187",
+        "installationAddress" : [ ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_44_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "assetIdId" : "5406052256",
+        "assetRefNo" : "5114770865",
+        "imsi" : "3196008733",
+        "phoneNumber" : "048194797",
+        "serialNumber" : "7751700577",
+        "serviceId" : "2017556268",
+        "installationAddress" : [ {
+          "buildingNo" : "135003",
+          "city" : "NováBuková",
+          "cityDistrict" : "HrochůvTýnec",
+          "countryCode" : "TR",
+          "crossId" : "regína.dědek@playtech.edu",
+          "postalCode" : "92313",
+          "street" : "NEDBALOVA",
+          "streetNo" : "172010"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_44_3",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "assetIdId" : "8426039909",
+        "assetRefNo" : "8170278877",
+        "imsi" : "7154338965",
+        "phoneNumber" : "633117736",
+        "serialNumber" : "8775988911",
+        "serviceId" : "8343287343",
+        "installationAddress" : [ {
+          "buildingNo" : "176007",
+          "city" : "Petrov",
+          "cityDistrict" : "Ostrov",
+          "countryCode" : "PF",
+          "crossId" : "oliver.borovičková@iridimax.me",
+          "postalCode" : "14228",
+          "street" : "MARKYTA",
+          "streetNo" : "638078"
+        } ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_44_4",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "assetIdId" : "9125334005",
+        "assetRefNo" : "3849020869",
+        "imsi" : "4948430521",
+        "phoneNumber" : "674229428",
+        "serialNumber" : "3765679674",
+        "serviceId" : "9036684417",
+        "installationAddress" : [ ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_44_5",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "assetIdId" : "6342309458",
+        "assetRefNo" : "6771625550",
+        "imsi" : "7294425739",
+        "phoneNumber" : "588792179",
+        "serialNumber" : "3128944398",
+        "serviceId" : "1743234860",
+        "installationAddress" : [ ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_44_6",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "assetIdId" : "7783712867",
+        "assetRefNo" : "3917510615",
+        "imsi" : "7475395199",
+        "phoneNumber" : "185312119",
+        "serialNumber" : "4398187107",
+        "serviceId" : "9649643753",
+        "installationAddress" : [ ],
+        "status" : "Schváleno"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 5,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_70_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "assetIdId" : "4795158846",
+        "assetRefNo" : "8836204522",
+        "imsi" : "5925221471",
+        "phoneNumber" : "436961866",
+        "serialNumber" : "1112676561",
+        "serviceId" : "3813284023",
+        "installationAddress" : [ ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_70_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "assetIdId" : "5674261958",
+        "assetRefNo" : "7263779341",
+        "imsi" : "8037619508",
+        "phoneNumber" : "717372880",
+        "serialNumber" : "8315061029",
+        "serviceId" : "3429783865",
+        "installationAddress" : [ {
+          "buildingNo" : "835161",
+          "city" : "Suchdol",
+          "cityDistrict" : "Zdounky",
+          "countryCode" : "BE",
+          "crossId" : "natalia.burešová@multilingua.edu",
+          "postalCode" : "84068",
+          "street" : "SMEYKALOVA",
+          "streetNo" : "984279"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_70_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "assetIdId" : "9704130439",
+        "assetRefNo" : "2209643020",
+        "imsi" : "6293412443",
+        "phoneNumber" : "250404093",
+        "serialNumber" : "5716254927",
+        "serviceId" : "3482407613",
+        "installationAddress" : [ ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_70_3",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "assetIdId" : "4035828957",
+        "assetRefNo" : "7634111647",
+        "imsi" : "8219209483",
+        "phoneNumber" : "959844268",
+        "serialNumber" : "8033141763",
+        "serviceId" : "7608890759",
+        "installationAddress" : [ {
+          "buildingNo" : "947048",
+          "city" : "Zblovice",
+          "cityDistrict" : "Skřipov",
+          "countryCode" : "BZ",
+          "crossId" : "svatava.bohuslav@westgate.com",
+          "postalCode" : "40847",
+          "street" : "VARŠAVSKÁ",
+          "streetNo" : "203586"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_70_4",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "assetIdId" : "4666825813",
+        "assetRefNo" : "8989926609",
+        "imsi" : "4918216786",
+        "phoneNumber" : "183056422",
+        "serialNumber" : "2717851085",
+        "serviceId" : "7681413350",
+        "installationAddress" : [ ],
+        "status" : "Schváleno s připomínkou"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_44_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "orderRefNo" : [ "2518676298", "5148764322" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_44_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "orderRefNo" : [ "6878652596", "5912869697" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 7,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_59_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "assetIdId" : "4386085338",
+        "assetRefNo" : "1556410679",
+        "imsi" : "2432778629",
+        "phoneNumber" : "910535594",
+        "serialNumber" : "1434366593",
+        "serviceId" : "4265334766",
+        "installationAddress" : [ ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_59_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "assetIdId" : "6920595621",
+        "assetRefNo" : "4932060094",
+        "imsi" : "2889285259",
+        "phoneNumber" : "633361924",
+        "serialNumber" : "8910064182",
+        "serviceId" : "3685376417",
+        "installationAddress" : [ {
+          "buildingNo" : "639308",
+          "city" : "Třebestovice",
+          "cityDistrict" : "Borová",
+          "countryCode" : "TM",
+          "crossId" : "kristýna.balcárková@nitrosystems.org",
+          "postalCode" : "86938",
+          "street" : "ROLNÍ",
+          "streetNo" : "112263"
+        } ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_59_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "assetIdId" : "5170616311",
+        "assetRefNo" : "5725276216",
+        "imsi" : "2497239528",
+        "phoneNumber" : "482533342",
+        "serialNumber" : "8344015985",
+        "serviceId" : "4150848947",
+        "installationAddress" : [ {
+          "buildingNo" : "460415",
+          "city" : "HorníŘepčice",
+          "cityDistrict" : "Bučí",
+          "countryCode" : "BT",
+          "crossId" : "bedřiška.ducháček@dynalab.co",
+          "postalCode" : "17721",
+          "street" : "VINICE",
+          "streetNo" : "694601"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_59_3",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "assetIdId" : "5517047795",
+        "assetRefNo" : "8320271709",
+        "imsi" : "7792712568",
+        "phoneNumber" : "879119030",
+        "serialNumber" : "6694345978",
+        "serviceId" : "8673458155",
+        "installationAddress" : [ {
+          "buildingNo" : "534009",
+          "city" : "Olešnice",
+          "cityDistrict" : "Osík",
+          "countryCode" : "GI",
+          "crossId" : "charlotta.fidlerová@terralabs.co",
+          "postalCode" : "87604",
+          "street" : "SPORTOVNÍ",
+          "streetNo" : "271511"
+        }, {
+          "buildingNo" : "681410",
+          "city" : "Kuchařovice",
+          "cityDistrict" : "Polešovice",
+          "countryCode" : "BI",
+          "crossId" : "jessica.drábek@ulogica.com",
+          "postalCode" : "12565",
+          "street" : "TŘEBÍZSKÉHO",
+          "streetNo" : "601645"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_59_4",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "assetIdId" : "7668659964",
+        "assetRefNo" : "6558479304",
+        "imsi" : "3048199526",
+        "phoneNumber" : "339384884",
+        "serialNumber" : "9535566161",
+        "serviceId" : "9823984391",
+        "installationAddress" : [ {
+          "buildingNo" : "330191",
+          "city" : "Bykoš",
+          "cityDistrict" : "Tuklaty",
+          "countryCode" : "TR",
+          "crossId" : "nicole.balík@infracom.edu",
+          "postalCode" : "19234",
+          "street" : "LUČNÍ",
+          "streetNo" : "647736"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_59_5",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "assetIdId" : "4935200324",
+        "assetRefNo" : "9531786244",
+        "imsi" : "1489949689",
+        "phoneNumber" : "179896068",
+        "serialNumber" : "9948842991",
+        "serviceId" : "3147522225",
+        "installationAddress" : [ ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_59_6",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "assetIdId" : "9478735883",
+        "assetRefNo" : "3959742117",
+        "imsi" : "1831456194",
+        "phoneNumber" : "292854421",
+        "serialNumber" : "5901845985",
+        "serviceId" : "7494278492",
+        "installationAddress" : [ {
+          "buildingNo" : "777989",
+          "city" : "Kleneč",
+          "cityDistrict" : "Dalovice",
+          "countryCode" : "UY",
+          "crossId" : "lucas.bastlová@fastfreight.name",
+          "postalCode" : "15744",
+          "street" : "NÁMĚSTÍ PROF.BECHYNĚ",
+          "streetNo" : "223630"
+        } ],
+        "status" : "Schváleno"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 4,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_51_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "assetIdId" : "2498049191",
+        "assetRefNo" : "1186203494",
+        "imsi" : "8826695307",
+        "phoneNumber" : "752840910",
+        "serialNumber" : "1377237421",
+        "serviceId" : "6284315558",
+        "installationAddress" : [ {
+          "buildingNo" : "469930",
+          "city" : "Kosořice",
+          "cityDistrict" : "Slatina",
+          "countryCode" : "CH",
+          "crossId" : "justina.bystřická@iridimax.edu",
+          "postalCode" : "31538",
+          "street" : "NA HRADĚ",
+          "streetNo" : "822300"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_51_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "assetIdId" : "4610598533",
+        "assetRefNo" : "7532806916",
+        "imsi" : "1106508755",
+        "phoneNumber" : "561049011",
+        "serialNumber" : "2361962731",
+        "serviceId" : "7138543899",
+        "installationAddress" : [ {
+          "buildingNo" : "670969",
+          "city" : "NováVes",
+          "cityDistrict" : "Petrůvka",
+          "countryCode" : "AZ",
+          "crossId" : "anastázie.barák@storex.edu",
+          "postalCode" : "35997",
+          "street" : "POD VRŠKEM",
+          "streetNo" : "644735"
+        }, {
+          "buildingNo" : "466339",
+          "city" : "Trotina",
+          "cityDistrict" : "Kořenov",
+          "countryCode" : "GD",
+          "crossId" : "matyáš.bek@solexis.info",
+          "postalCode" : "62500",
+          "street" : "VE FINSKÝCH",
+          "streetNo" : "374248"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_51_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "assetIdId" : "1989456691",
+        "assetRefNo" : "6440434333",
+        "imsi" : "1348788948",
+        "phoneNumber" : "705014106",
+        "serialNumber" : "8999463997",
+        "serviceId" : "5713689995",
+        "installationAddress" : [ ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_51_3",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "assetIdId" : "9700471872",
+        "assetRefNo" : "2602081955",
+        "imsi" : "7540594300",
+        "phoneNumber" : "534415970",
+        "serialNumber" : "2263725285",
+        "serviceId" : "6479419454",
+        "installationAddress" : [ {
+          "buildingNo" : "661589",
+          "city" : "Výčapy",
+          "cityDistrict" : "Brusné",
+          "countryCode" : "ER",
+          "crossId" : "izabela.carda@nitrosystems.info",
+          "postalCode" : "88124",
+          "street" : "GOTTWALDOVO",
+          "streetNo" : "283285"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_52_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "crRefNo" : [ "8359837287Halasová.", "4557372404Disjunkce.", "2047113457Antisovětštější.", "8244891328Plynoinstalace.", "5823662455Zverbování." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_52_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "crRefNo" : [ "5896307842Hanáčková.", "8578088061Žárový.", "4583376124Jednofázový." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 435,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_67_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_67",
+      "_parent" : "CUST_2_67",
+      "_source" : {
+        "assetIdId" : "8968089335",
+        "assetRefNo" : "1143582835",
+        "imsi" : "7905693714",
+        "phoneNumber" : "684653297",
+        "serialNumber" : "7453692415",
+        "serviceId" : "1076059403",
+        "installationAddress" : [ {
+          "buildingNo" : "772296",
+          "city" : "Zdětín",
+          "cityDistrict" : "Lubnice",
+          "countryCode" : "WF",
+          "crossId" : "magdalena.caha@solexis.me",
+          "postalCode" : "61112",
+          "street" : "BŘEZOVÁ",
+          "streetNo" : "871564"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_67_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_67",
+      "_parent" : "CUST_2_67",
+      "_source" : {
+        "assetIdId" : "6575774688",
+        "assetRefNo" : "9546768923",
+        "imsi" : "7604165963",
+        "phoneNumber" : "358315794",
+        "serialNumber" : "2803900094",
+        "serviceId" : "5118628792",
+        "installationAddress" : [ {
+          "buildingNo" : "508433",
+          "city" : "Přechovice",
+          "cityDistrict" : "Zalužany",
+          "countryCode" : "AO",
+          "crossId" : "vladan.denk@omnitouch.com",
+          "postalCode" : "10113",
+          "street" : "NA FERULI",
+          "streetNo" : "867302"
+        }, {
+          "buildingNo" : "362344",
+          "city" : "DolníSlivno",
+          "cityDistrict" : "Hlohovice",
+          "countryCode" : "BV",
+          "crossId" : "edita.bačík@vtgrafix.edu",
+          "postalCode" : "11906",
+          "street" : "MÁNESOVA",
+          "streetNo" : "130030"
+        } ],
+        "status" : "Schváleno"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 435,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_59_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "variableSymbol" : [ "3337786124", "1773155010", "4799582681", "3394337537" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_59_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "variableSymbol" : [ "9167100868", "9020804103", "9090975922", "8836493221", "7252984146", "2527319262", "5589518182", "5704998980", "7697661891", "1844470883" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_47_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "orderRefNo" : [ "6170308625", "4598689651", "1815149684", "2532047169" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_47_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "orderRefNo" : [ "1551150414", "2689194793" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 435,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_71_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "orderRefNo" : [ "1843269536" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_71_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "orderRefNo" : [ "4382236730", "9900381519", "6282619539", "6774618094" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_51_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "crRefNo" : [ "2261001228Hlupáček.", "1814942650Vladař.", "3670627786Radiologie.", "3398949511Jedovnice." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_51_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "crRefNo" : [ "3143862153Urbanistův." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_59_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "orderRefNo" : [ "4918092305", "4035172042", "1644290517", "7904886863" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_59_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "orderRefNo" : [ "7110066248" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 7,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_47_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "assetIdId" : "6237690691",
+        "assetRefNo" : "7831052891",
+        "imsi" : "7936298619",
+        "phoneNumber" : "356278185",
+        "serialNumber" : "1553584514",
+        "serviceId" : "1671585939",
+        "installationAddress" : [ {
+          "buildingNo" : "933042",
+          "city" : "Krnov",
+          "cityDistrict" : "Babice",
+          "countryCode" : "LA",
+          "crossId" : "alex.douša@optiplex.gov",
+          "postalCode" : "81665",
+          "street" : "U NOVÝCH DOMŮ II",
+          "streetNo" : "873039"
+        } ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_47_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "assetIdId" : "6455960443",
+        "assetRefNo" : "3285910449",
+        "imsi" : "3795848625",
+        "phoneNumber" : "980269384",
+        "serialNumber" : "1478905152",
+        "serviceId" : "4561087112",
+        "installationAddress" : [ {
+          "buildingNo" : "100650",
+          "city" : "Černiv",
+          "cityDistrict" : "Vnorovy",
+          "countryCode" : "BL",
+          "crossId" : "zdenka.blahutová@xenosys.co",
+          "postalCode" : "38995",
+          "street" : "22",
+          "streetNo" : "373881"
+        }, {
+          "buildingNo" : "539829",
+          "city" : "Václavy",
+          "cityDistrict" : "Jílovice",
+          "countryCode" : "BO",
+          "crossId" : "jennifer.brůžek@multiserv.com",
+          "postalCode" : "93947",
+          "street" : "PORÁKOVA",
+          "streetNo" : "206120"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_47_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "assetIdId" : "5056569896",
+        "assetRefNo" : "8906755818",
+        "imsi" : "5937921512",
+        "phoneNumber" : "733178951",
+        "serialNumber" : "3432266581",
+        "serviceId" : "4055730739",
+        "installationAddress" : [ {
+          "buildingNo" : "628732",
+          "city" : "Vápenná",
+          "cityDistrict" : "Jankovice",
+          "countryCode" : "DZ",
+          "crossId" : "nikolaj.gazda@storex.biz",
+          "postalCode" : "10403",
+          "street" : "MÍROVÉ NÁMĚSTÍ",
+          "streetNo" : "635414"
+        }, {
+          "buildingNo" : "802785",
+          "city" : "RychnovnaMoravě",
+          "cityDistrict" : "Práče",
+          "countryCode" : "MA",
+          "crossId" : "liana.bínová@nitrocam.gov",
+          "postalCode" : "96521",
+          "street" : "V CHALUPÁCH",
+          "streetNo" : "435127"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_47_3",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "assetIdId" : "7214679300",
+        "assetRefNo" : "8929087543",
+        "imsi" : "8169463147",
+        "phoneNumber" : "050804942",
+        "serialNumber" : "9467880890",
+        "serviceId" : "7320782744",
+        "installationAddress" : [ ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_47_4",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "assetIdId" : "6893426251",
+        "assetRefNo" : "1391873553",
+        "imsi" : "2015284458",
+        "phoneNumber" : "809980705",
+        "serialNumber" : "9275000191",
+        "serviceId" : "8234607733",
+        "installationAddress" : [ {
+          "buildingNo" : "285926",
+          "city" : "Dobšín",
+          "cityDistrict" : "Nechanice",
+          "countryCode" : "BW",
+          "crossId" : "amalie.doskočil@airconix.gov",
+          "postalCode" : "65079",
+          "street" : "ENGELOVA",
+          "streetNo" : "135470"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_47_5",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "assetIdId" : "4747425696",
+        "assetRefNo" : "7643541892",
+        "imsi" : "7278072484",
+        "phoneNumber" : "678046658",
+        "serialNumber" : "6232838339",
+        "serviceId" : "9401168355",
+        "installationAddress" : [ {
+          "buildingNo" : "464185",
+          "city" : "PodhořanyuRonova",
+          "cityDistrict" : "PolníChrčice",
+          "countryCode" : "MA",
+          "crossId" : "valter.antošová@kancom.xyz",
+          "postalCode" : "63099",
+          "street" : "NAD NÁDRAŽÍM",
+          "streetNo" : "661644"
+        }, {
+          "buildingNo" : "282145",
+          "city" : "Jemnice",
+          "cityDistrict" : "DolníLomná",
+          "countryCode" : "SR",
+          "crossId" : "přemysl.foltýnová@terralabs.edu",
+          "postalCode" : "97220",
+          "street" : "U PIVOVARU",
+          "streetNo" : "170884"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_47_6",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "assetIdId" : "2420296487",
+        "assetRefNo" : "1941806256",
+        "imsi" : "4130098662",
+        "phoneNumber" : "851138065",
+        "serialNumber" : "2441783197",
+        "serviceId" : "4345706216",
+        "installationAddress" : [ {
+          "buildingNo" : "636522",
+          "city" : "Kosičky",
+          "cityDistrict" : "Krupá",
+          "countryCode" : "RU",
+          "crossId" : "vanda.burešová@sixtysix.xyz",
+          "postalCode" : "35021",
+          "street" : "NEPASICKÉ NÁMĚSTÍ",
+          "streetNo" : "860961"
+        }, {
+          "buildingNo" : "134171",
+          "city" : "Rakůvka",
+          "cityDistrict" : "Okrouhlo",
+          "countryCode" : "RS",
+          "crossId" : "pravoslav.drábek@storex.xyz",
+          "postalCode" : "66989",
+          "street" : "TICHÁ",
+          "streetNo" : "758855"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_59_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "crRefNo" : [ "7962881996Plivátko.", "1095283521Bitva." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_59_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_59",
+      "_parent" : "CUST_2_59",
+      "_source" : {
+        "crRefNo" : [ "3701428719Zlatový.", "4501985663Tichý.", "7826400643Koutek." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 4,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_52_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "assetIdId" : "9591453119",
+        "assetRefNo" : "5067093793",
+        "imsi" : "7890136293",
+        "phoneNumber" : "999638212",
+        "serialNumber" : "1185941988",
+        "serviceId" : "3869566762",
+        "installationAddress" : [ ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_52_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "assetIdId" : "1219421726",
+        "assetRefNo" : "5224820328",
+        "imsi" : "8337952623",
+        "phoneNumber" : "616361121",
+        "serialNumber" : "7101536922",
+        "serviceId" : "4708663920",
+        "installationAddress" : [ {
+          "buildingNo" : "152266",
+          "city" : "Jílové",
+          "cityDistrict" : "Chotutice",
+          "countryCode" : "SM",
+          "crossId" : "katka.bulíčková@turbosystems.name",
+          "postalCode" : "66132",
+          "street" : "5.KVĚTNA",
+          "streetNo" : "491173"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_52_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "assetIdId" : "3651015862",
+        "assetRefNo" : "8939395560",
+        "imsi" : "8651770976",
+        "phoneNumber" : "629509869",
+        "serialNumber" : "1868905258",
+        "serviceId" : "4231435953",
+        "installationAddress" : [ ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_52_3",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "assetIdId" : "1131305830",
+        "assetRefNo" : "7580305583",
+        "imsi" : "7089101277",
+        "phoneNumber" : "033184136",
+        "serialNumber" : "1570121995",
+        "serviceId" : "9503388655",
+        "installationAddress" : [ {
+          "buildingNo" : "267944",
+          "city" : "Jarpice",
+          "cityDistrict" : "PomezínadOhří",
+          "countryCode" : "AS",
+          "crossId" : "matyas.gajdošíková@multilingua.biz",
+          "postalCode" : "75163",
+          "street" : "NA CHRUPAVCE",
+          "streetNo" : "993052"
+        }, {
+          "buildingNo" : "539367",
+          "city" : "Vilémovice",
+          "cityDistrict" : "Skršín",
+          "countryCode" : "DZ",
+          "crossId" : "doris.bártů@hivemind.org",
+          "postalCode" : "71719",
+          "street" : "SUŠILOVA",
+          "streetNo" : "583153"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_67_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_67",
+      "_parent" : "CUST_2_67",
+      "_source" : {
+        "crRefNo" : [ "6077005967Poukazníkův.", "3518113740Rozš»ourat.", "3023880557Předhánět.", "6706737712Beneš." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_67_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_67",
+      "_parent" : "CUST_2_67",
+      "_source" : {
+        "crRefNo" : [ "6478878432Žvanit.", "9713090337Licí." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_70_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "variableSymbol" : [ "6949734335", "8362372320", "7899646500", "1613127779", "3796692127", "3122510695", "5292548067", "6348931209", "8784171411", "2832880044", "8211294033", "5537857971", "2467911096", "9503694382", "8375057937", "3749653542", "1236780821", "8817153829" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_70_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "variableSymbol" : [ "2845155931", "4424334896", "4631717810" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_47_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "crRefNo" : [ "2319565169Družec." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_47_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "crRefNo" : [ "5142583953Bokorys.", "7172215571Dodrcení." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 433,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_72_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "crRefNo" : [ "7733396878Lakatův.", "7958438211Arabčin." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_72_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "crRefNo" : [ "1476484093Ouřada.", "7699777842Zrekonstruovaný." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_72_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "variableSymbol" : [ "4662591265" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_72_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "variableSymbol" : [ "5515875416", "9734769641", "2970057989", "5724724659", "6596547391", "1731244958", "8423821211", "5872739578", "7370106386", "5462685665", "9552612982", "2335283132" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_67_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_67",
+      "_parent" : "CUST_2_67",
+      "_source" : {
+        "variableSymbol" : [ "5156136188", "4376762415", "2134441582", "2678103130", "4742230524", "3184764786", "6019157241", "8426799610", "6289426447", "3540695242", "9218002324", "9739606582", "8372856071", "2187950709", "4162697905" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_67_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_67",
+      "_parent" : "CUST_2_67",
+      "_source" : {
+        "variableSymbol" : [ "2716880193", "7953050474", "5786168915", "1861066668", "3915901593", "1464258757", "9425474602", "6556634347", "9831825110", "5827229300", "6751570675", "1977828937", "5374938046" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 436,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_61_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "crRefNo" : [ "3463063316Pascalský.", "3451146624Postřekovský.", "6125543232Zasévat.", "7130923198Vinětka." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_61_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "crRefNo" : [ "8258226613Obětní." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 427,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 428,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 428,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_52_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "variableSymbol" : [ "7585909312", "7364749921", "6618918556", "9330684759", "3354801979", "8678712927", "2344643366", "9257219424", "2853839344", "7927926920" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_52_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "variableSymbol" : [ "1482047555", "6597162517", "6440953216", "7652380977", "1477390124", "9676261541", "1230241152", "8155915013", "3474182989", "5985752628", "3285047980", "5949883195", "6892628721", "6109058564", "7158465531", "9917808745" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_70_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "orderRefNo" : [ "7421361407", "4908882065", "3863882708", "2123295951", "7761082420" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_70_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "orderRefNo" : [ "1750387684", "1648708227" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 3,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_61_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "assetIdId" : "4725531912",
+        "assetRefNo" : "9032357724",
+        "imsi" : "5537699988",
+        "phoneNumber" : "007038819",
+        "serialNumber" : "3927649082",
+        "serviceId" : "9782695355",
+        "installationAddress" : [ {
+          "buildingNo" : "840440",
+          "city" : "MostyuJablunkova",
+          "cityDistrict" : "Černožice",
+          "countryCode" : "PK",
+          "crossId" : "igor.böhmová@haltheon.co",
+          "postalCode" : "51399",
+          "street" : "JABLONSKÉ NÁBŘEŽÍ",
+          "streetNo" : "699645"
+        }, {
+          "buildingNo" : "981074",
+          "city" : "Supíkovice",
+          "cityDistrict" : "VelikáVes",
+          "countryCode" : "NC",
+          "crossId" : "diana.fišerová@venstrategy.eu",
+          "postalCode" : "10595",
+          "street" : "KOKRDY",
+          "streetNo" : "283640"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_61_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "assetIdId" : "4196113740",
+        "assetRefNo" : "8085166359",
+        "imsi" : "7834565268",
+        "phoneNumber" : "992001354",
+        "serialNumber" : "8071393594",
+        "serviceId" : "6463937210",
+        "installationAddress" : [ {
+          "buildingNo" : "762685",
+          "city" : "NovéHeřminovy",
+          "cityDistrict" : "Grygov",
+          "countryCode" : "TK",
+          "crossId" : "aloisie.bohatý@qualcore.info",
+          "postalCode" : "27473",
+          "street" : "U KAPLIČKY",
+          "streetNo" : "398376"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_61_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "assetIdId" : "6975145188",
+        "assetRefNo" : "9712316484",
+        "imsi" : "4278609111",
+        "phoneNumber" : "626402843",
+        "serialNumber" : "5705070919",
+        "serviceId" : "7839846498",
+        "installationAddress" : [ {
+          "buildingNo" : "287207",
+          "city" : "Mimoň",
+          "cityDistrict" : "Plesná",
+          "countryCode" : "BE",
+          "crossId" : "bohumíra.fousová@cirpria.name",
+          "postalCode" : "71476",
+          "street" : "VACULÍKOVA",
+          "streetNo" : "468861"
+        }, {
+          "buildingNo" : "301939",
+          "city" : "Holubice",
+          "cityDistrict" : "Květinov",
+          "countryCode" : "PM",
+          "crossId" : "česlav.čapková@mediadime.edu",
+          "postalCode" : "59034",
+          "street" : "CIHLÁŘSKÁ",
+          "streetNo" : "130954"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_71_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "crRefNo" : [ "7310710454Hloubení.", "7131753646Injektážní.", "4153637101Ba»a.", "8279577551Macháňová." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_71_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "crRefNo" : [ "3538816134Manažérský." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 427,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 0,
+    "max_score" : null,
+    "hits" : [ ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_44_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "crRefNo" : [ "3617088181Mikš.", "6448834232Přeplnění." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_44_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "crRefNo" : [ "8069196320Snímkovávaný.", "3924906197Motorák.", "6119919559Pasportizace.", "9915781487Trkat." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_52_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "orderRefNo" : [ "1601651608" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_52_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_52",
+      "_parent" : "CUST_2_52",
+      "_source" : {
+        "orderRefNo" : [ "5980409446", "8155433662", "4623249109", "1509737594", "2345303815" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_51_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "variableSymbol" : [ "5168501825", "1263805085", "8632734799", "4535506883", "8217580094", "7887971170", "2730039761", "7839748018", "4566463198", "2210884056", "4231999740", "7167321161", "7750411994", "7654244448", "3162206796", "7232205244", "3523013737", "1870474230" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_51_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "variableSymbol" : [ "7429941510", "5265348040", "6135575053", "4108339598", "5603347296", "6442162260", "8597480406", "1275918094", "9802058680", "4951112667", "2760580526", "9865206892", "7837399993", "4519034845", "9931614187", "8581204822", "3163015187", "8143379959", "4469804143" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 430,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_70_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "crRefNo" : [ "4632462050Tolikátý.", "1438570339Cvrčet.", "6608437274Betalainový.", "6948339849Parkán.", "5458831394Okysličovanější." ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "customer_request",
+      "_id" : "CUST_REQ_2_70_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_70",
+      "_parent" : "CUST_2_70",
+      "_source" : {
+        "crRefNo" : [ "2932067671Vybetonovaný." ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 430,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_71_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "variableSymbol" : [ "5426712294", "2775195641", "5129821672", "5199750725", "5753040977", "6069019260", "4901012121", "3851150365", "1532197908", "5539251610", "4324469091", "7938573468", "1132621189" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_71_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "variableSymbol" : [ "2761539133", "4104993857", "7066822765" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 3,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_71_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "assetIdId" : "4347307328",
+        "assetRefNo" : "7918667880",
+        "imsi" : "3531773589",
+        "phoneNumber" : "582371281",
+        "serialNumber" : "9693551357",
+        "serviceId" : "4659862977",
+        "installationAddress" : [ {
+          "buildingNo" : "419701",
+          "city" : "Pasečnice",
+          "cityDistrict" : "Malhotice",
+          "countryCode" : "PS",
+          "crossId" : "vlasta.bubeníková@fastmart.club",
+          "postalCode" : "66218",
+          "street" : "K OSKÁRCE",
+          "streetNo" : "719039"
+        } ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_71_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "assetIdId" : "4278127591",
+        "assetRefNo" : "9404003276",
+        "imsi" : "6604151637",
+        "phoneNumber" : "603418010",
+        "serialNumber" : "6591640806",
+        "serviceId" : "9654560485",
+        "installationAddress" : [ ],
+        "status" : "Schváleno s připomínkou"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_71_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_71",
+      "_parent" : "CUST_2_71",
+      "_source" : {
+        "assetIdId" : "4349439277",
+        "assetRefNo" : "9067563272",
+        "imsi" : "1023737679",
+        "phoneNumber" : "103350329",
+        "serialNumber" : "9056912941",
+        "serviceId" : "9462073344",
+        "installationAddress" : [ ],
+        "status" : "Schváleno"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_51_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "orderRefNo" : [ "3858229777", "3444118070" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_51_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_51",
+      "_parent" : "CUST_2_51",
+      "_source" : {
+        "orderRefNo" : [ "6096929985" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 4,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_72_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "assetIdId" : "7673067610",
+        "assetRefNo" : "3668003974",
+        "imsi" : "1356721725",
+        "phoneNumber" : "598371855",
+        "serialNumber" : "9557996105",
+        "serviceId" : "8353714001",
+        "installationAddress" : [ {
+          "buildingNo" : "952821",
+          "city" : "Hněvkovice",
+          "cityDistrict" : "Slaná",
+          "countryCode" : "AE",
+          "crossId" : "albín.dluhoš@superwire.xyz",
+          "postalCode" : "84303",
+          "street" : "HORNÍ NÁMĚSTÍ",
+          "streetNo" : "507139"
+        }, {
+          "buildingNo" : "538256",
+          "city" : "ŠirokýDůl",
+          "cityDistrict" : "Stříbrnice",
+          "countryCode" : "LC",
+          "crossId" : "světla.frýdl@bellgate.net",
+          "postalCode" : "89722",
+          "street" : "HABÁNSKÁ",
+          "streetNo" : "654083"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_72_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "assetIdId" : "7655798359",
+        "assetRefNo" : "9862681505",
+        "imsi" : "2189453905",
+        "phoneNumber" : "714938235",
+        "serialNumber" : "4149232808",
+        "serviceId" : "4170891629",
+        "installationAddress" : [ {
+          "buildingNo" : "111090",
+          "city" : "Meziboří",
+          "cityDistrict" : "Horšice",
+          "countryCode" : "FR",
+          "crossId" : "justýna.fáberová@logico.com",
+          "postalCode" : "49540",
+          "street" : "KARLOVSKÁ",
+          "streetNo" : "973412"
+        }, {
+          "buildingNo" : "842757",
+          "city" : "SvatáMaří",
+          "cityDistrict" : "Běstovice",
+          "countryCode" : "TH",
+          "crossId" : "janina.frýdová@playtech.name",
+          "postalCode" : "08558",
+          "street" : "NADE VSÍ",
+          "streetNo" : "858115"
+        } ],
+        "status" : "Zamítnuto"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_72_2",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "assetIdId" : "4219479489",
+        "assetRefNo" : "4612264434",
+        "imsi" : "9752504075",
+        "phoneNumber" : "827734314",
+        "serialNumber" : "3711727112",
+        "serviceId" : "5608973125",
+        "installationAddress" : [ ],
+        "status" : "Schváleno"
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "product",
+      "_id" : "PRODUCT_2_72_3",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "assetIdId" : "5392086845",
+        "assetRefNo" : "6513871023",
+        "imsi" : "1624956828",
+        "phoneNumber" : "261388909",
+        "serialNumber" : "3176357248",
+        "serviceId" : "6475101649",
+        "installationAddress" : [ ],
+        "status" : "Zamítnuto"
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 430,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_61_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "orderRefNo" : [ "4762292122", "8626193136", "9258712467", "9053319545", "8669008541" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_61_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "orderRefNo" : [ "3987819924" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_61_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "variableSymbol" : [ "9329690080", "9253433383", "5333050214", "1964698007", "2199640114", "8920856077", "9699357263", "6142754680", "5355196804", "3825525652", "3173550466", "9364818108", "3484556139", "4541831619" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_61_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_61",
+      "_parent" : "CUST_2_61",
+      "_source" : {
+        "variableSymbol" : [ "1462052220", "3281300392", "2703281580", "5258200262", "7118124262", "8837013019", "4300930426", "2170003879", "7002727579", "7500051522", "8893861546", "5049580112", "3624942862", "2070794160" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_47_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "variableSymbol" : [ "1032608657", "4156460298", "8084517784", "1054125139", "2879143527", "4167823597", "1223818186", "9139861430", "5694664525", "5866391368", "8653691748", "5974101015", "8547263776", "7229739973", "2466597606", "8894510529", "7447284095" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_47_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_47",
+      "_parent" : "CUST_2_47",
+      "_source" : {
+        "variableSymbol" : [ "3749867854", "3800245167", "2262970001", "5184445436", "1681445752", "8840110056", "7037195922", "3418286783", "6458912826", "8429752633", "5707130649", "1743038613", "8357513248", "1493922222", "2185832228", "2217575390" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 431,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_44_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "variableSymbol" : [ "5291282530", "2241635782", "7236710978", "8883905810", "7340070772", "2471325823", "1509171618", "6438287278", "1777478992" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "payment_document",
+      "_id" : "PAY_DOC_2_44_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_44",
+      "_parent" : "CUST_2_44",
+      "_source" : {
+        "variableSymbol" : [ "8917577681", "4795205532", "4598893571", "9172522045", "6881678499", "6051529187", "3989176148", "4964608808", "7781326537", "5460323758", "6002584279", "2257413808", "5183933439", "9088280469", "2187869463", "5606213791", "2037644781" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 435,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_67_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_67",
+      "_parent" : "CUST_2_67",
+      "_source" : {
+        "orderRefNo" : [ "1159061449", "4457125093", "9249951665", "4985391935", "7786224336" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_67_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_67",
+      "_parent" : "CUST_2_67",
+      "_source" : {
+        "orderRefNo" : [ "4802600958", "1362986006", "2834854717" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------
+{
+  "took" : 435,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_72_0",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "orderRefNo" : [ "7508543466", "2828887414" ]
+      }
+    }, {
+      "_index" : "customer_index_rif",
+      "_type" : "order",
+      "_id" : "ORDER2_72_1",
+      "_score" : 1.0,
+      "_routing" : "CUST_2_72",
+      "_parent" : "CUST_2_72",
+      "_source" : {
+        "orderRefNo" : [ "5082914544", "6505410261", "4410616677" ]
+      }
+    } ]
+  }
+}
+---------------------------------------------------

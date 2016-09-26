@@ -1,0 +1,12 @@
+{
+  "query" : {
+    "has_child" : {
+      "type": "{{childType}}",
+      "query" : {
+        "match" : {
+          "_parent" : "{{parentId}}"
+        }
+      }
+    }
+  }
+}
