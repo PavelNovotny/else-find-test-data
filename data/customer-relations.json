@@ -1,6 +1,0 @@
-{
-  "index" : "customer_index_rif",
-  "parents" : [
-    {"parent" : "customer", "children":["product", "customer_request", "order", "payment_document", "customer_permission"]}
-  ]
-}

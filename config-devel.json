@@ -1,5 +1,3 @@
 {
-  "customer-template": "./test/customerTemplate.json",
-  "proxied-site": "http://localhost:9200",
-  "listen-port": 8000
+  "elastic-url": "http://localhost:9200"
 }

@@ -1,0 +1,142 @@
+{
+  "took" : 26,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 4,
+    "successful" : 4,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 400,
+    "max_score" : 2.236068,
+    "hits" : [ {
+      "_index" : "customer_index_rif",
+      "_type" : "customer",
+      "_id" : "CUST_2_499",
+      "_score" : 2.236068,
+      "_source" : {
+        "residentalAddress" : {
+          "buildingNo" : "976231",
+          "city" : "Sázava",
+          "cityDistrict" : "Ponědrážka",
+          "countryCode" : "BS",
+          "crossId" : "beata.bosáková@multilingua.com",
+          "postalCode" : "38862",
+          "street" : "ŠKOLNÍ",
+          "streetNo" : "506984"
+        },
+        "frameContract" : {
+          "obligationRefNo" : "Feferonkový vrchnější usypávání."
+        },
+        "auditDate" : "18.12.1900",
+        "birthDate" : "14.05.1916",
+        "birthDateString" : "12.07.1972",
+        "birthNumber" : "040419201920",
+        "companyRegNo" : "7202504289",
+        "cuRefNo" : "cuRefNo7359872046",
+        "customerType" : "Person",
+        "identityDocumentID" : "OP4929759206",
+        "segment" : "SEGMENT1591083316",
+        "sfaId" : "9119078013",
+        "taxRegNo" : "4149873031",
+        "companyName" : "MULTILINGUA",
+        "firstName" : "BEATA",
+        "lastName" : "BOSÁKOVÁ"
+      },
+      "inner_hits" : {
+        "product" : {
+          "hits" : {
+            "total" : 3,
+            "max_score" : 10.963985,
+            "hits" : [ {
+              "_index" : "customer_index_rif",
+              "_type" : "product",
+              "_id" : "PRODUCT_2_499_0",
+              "_score" : 10.963985,
+              "_routing" : "CUST_2_499",
+              "_parent" : "CUST_2_499",
+              "_source" : {
+                "assetIdId" : "5525284534",
+                "assetRefNo" : "8706091339",
+                "imsi" : "5258905502",
+                "phoneNumber" : "970408710",
+                "serialNumber" : "2003681665",
+                "serviceId" : "1717519534",
+                "installationAddress" : [ ],
+                "status" : "Schváleno s připomínkou"
+              }
+            } ]
+          }
+        },
+        "payment_document" : {
+          "hits" : {
+            "total" : 2,
+            "max_score" : 10.963985,
+            "hits" : [ {
+              "_index" : "customer_index_rif",
+              "_type" : "payment_document",
+              "_id" : "PAY_DOC_2_499_0",
+              "_score" : 10.963985,
+              "_routing" : "CUST_2_499",
+              "_parent" : "CUST_2_499",
+              "_source" : {
+                "variableSymbol" : [ "6556085311", "6581628318", "8966268258", "5895078249", "4616282637", "1692048970", "7045921746", "5703528278" ]
+              }
+            } ]
+          }
+        },
+        "customer_request" : {
+          "hits" : {
+            "total" : 2,
+            "max_score" : 10.963985,
+            "hits" : [ {
+              "_index" : "customer_index_rif",
+              "_type" : "customer_request",
+              "_id" : "CUST_REQ_2_499_0",
+              "_score" : 10.963985,
+              "_routing" : "CUST_2_499",
+              "_parent" : "CUST_2_499",
+              "_source" : {
+                "crRefNo" : [ "3301010255Dakotský.", "1799168784Výškrab.", "8800201131Defétismus.", "4560959401Přerodit.", "5532975867Raketový." ]
+              }
+            } ]
+          }
+        },
+        "customer_permission" : {
+          "hits" : {
+            "total" : 1,
+            "max_score" : 10.963985,
+            "hits" : [ {
+              "_index" : "customer_index_rif",
+              "_type" : "customer_permission",
+              "_id" : "CUST_PERM__2",
+              "_score" : 10.963985,
+              "_routing" : "CUST_2_499",
+              "_parent" : "CUST_2_499",
+              "_source" : {
+                "login" : [ "x0503266", "x0503526", "x0503357", "x0503487", "x0503569", "x0503657", "x0503684", "x0503631", "x0503471", "x0503455", "x0503394", "x0503603", "x0503288", "x0503865", "x0503184", "x0503198", "x0503698", "x0503614", "x0503776", "x0503275", "x0503186", "x0503411", "x0503460", "x0503401", "x0503423", "x0503857", "x0503186", "x0503934", "x0503624", "x0503784", "x0503239", "x0503951", "x0503323", "x0503308", "x0503294", "x0503208", "x0503801", "x0503647", "x0503560", "x0503613", "x0503681", "x0503805", "x0503591", "x0503574", "x0503430", "x0503672", "x0503470", "x0503632", "x0503737", "x0503832", "x0503645", "x0503424", "x0503344", "x0503360", "x0503353", "x0503886", "x0503169", "x0503822", "x0503953", "x0503147", "x0503609", "x0503430" ]
+              }
+            } ]
+          }
+        },
+        "order" : {
+          "hits" : {
+            "total" : 2,
+            "max_score" : 10.963985,
+            "hits" : [ {
+              "_index" : "customer_index_rif",
+              "_type" : "order",
+              "_id" : "ORDER2_499_0",
+              "_score" : 10.963985,
+              "_routing" : "CUST_2_499",
+              "_parent" : "CUST_2_499",
+              "_source" : {
+                "orderRefNo" : [ "2808465116" ]
+              }
+            } ]
+          }
+        }
+      }
+    } ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+   "url" : "/customer_index_rif/customer/_search?pretty=true",
+   "result" : "result/customer-test-data.json",
+   "elastic":
+{
+  "from" : 0, "size" : 1,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "has_child": {
+            "type": "product",
+            "query": {
+              "match_all" : {}
+            },
+            "inner_hits": {
+              "highlight": {
+                "fields": {
+                  "*": {
+                    "number_of_fragments": 3
+                  }
+                }
+              },
+              "from": 0,
+              "size": 1
+            }
+          }
+        },
+        {
+          "has_child": {
+            "type": "customer_request",
+            "query": {
+              "match_all" : {}
+            },
+            "inner_hits": {
+              "highlight": {
+                "fields": {
+                  "crRefNo": {
+                    "number_of_fragments": 3
+                  }
+                }
+              },
+              "from": 0,
+              "size": 1
+            }
+          }
+        },
+        {
+          "has_child": {
+            "type": "order",
+            "query": {
+              "match_all" : {}
+            },
+            "inner_hits": {
+              "highlight": {
+                "fields": {
+                  "orderRefNo": {
+                    "number_of_fragments": 3
+                  }
+                }
+              },
+              "from": 0,
+              "size": 1
+            }
+          }
+        },
+        {
+          "has_child": {
+            "type": "payment_document",
+            "query": {
+              "match_all" : {}
+            },
+            "inner_hits": {
+              "highlight": {
+                "fields": {
+                  "variableSymbol": {
+                    "number_of_fragments": 3
+                  }
+                }
+              },
+              "from": 0,
+              "size": 1
+            }
+          }
+        },
+        {
+          "has_child": {
+            "type": "customer_permission",
+            "query": {
+              "match_all" : {}
+            },
+            "inner_hits": {
+              "highlight": {
+                "fields": {
+                  "variableSymbol": {
+                    "number_of_fragments": 3
+                  }
+                }
+              },
+              "from": 0,
+              "size": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+}

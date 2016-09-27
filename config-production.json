@@ -1,5 +1,3 @@
 {
-"customer-template": "customerTemplate.json",
-"elastic-url": "http://10.199.160.19:9200",
-"listen-port": 9200
+"elastic-url": "http://10.199.160.19:9200"
 }
